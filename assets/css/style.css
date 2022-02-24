@@ -234,7 +234,7 @@ margin-bottom: 25px;
 
 .contact {
     background-color: #024e76;
-    display: inline-block;
+    vertical-align: baseline;
 }
 
 .contact-info iframe {
@@ -251,7 +251,7 @@ margin-bottom: 25px;
     color: white;
 }
 
-.contact-info h3 {
+.contact h4 {
     color: #fce138;
     font-size: 32px;
 }
@@ -266,3 +266,4 @@ margin-bottom: 25px;
 .contact-info a {
     color: #fce138;
 }
+
