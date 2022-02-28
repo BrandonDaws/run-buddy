@@ -279,3 +279,24 @@ margin-bottom: 25px;
     left: 450px;
     top: 400px;
 }
+
+.cta{
+    position: absolute;
+    width: 450px;
+    left: 325px;
+    text-align: right;
+    top: 150px;
+}
+.cta  h3{
+ color: #fce138;
+ line-height: 1.4;
+ font-style: italic;
+ font-weight: bolder;
+ font-size: 35px;
+}
+
+.cta p{
+    color: white;
+    line-height: 1.2;
+    font-size: larger;
+}
