@@ -282,12 +282,12 @@ margin-bottom: 25px;
 
 .cta{
     position: absolute;
-    width: 450px;
-    left: 325px;
+    width: 400px;
+    left: 300px;
     text-align: right;
     top: 150px;
 }
-.cta  h3{
+.cta  h2{
  color: #fce138;
  line-height: 1.4;
  font-style: italic;
