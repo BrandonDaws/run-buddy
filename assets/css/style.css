@@ -358,3 +358,17 @@ font-size: 22px;
  display: flex;
 }
 
+@media screen and (max-width:980px) {
+    
+    }
+}
+
+@media  screen and (max-width=768px) {
+    
+    }
+}
+
+@media screen and (max-width=575px) {
+   
+    }
+}
