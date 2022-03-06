@@ -15,6 +15,12 @@ header{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background-image: url(../images/hero-bg.jpeg);
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
 }
 
 header h1 {
@@ -22,11 +28,15 @@ header h1 {
     font-size: 36px;    
     color: #fce138;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0,0, 0, 0.5);
 }
 
 header a {
     text-decoration: none;
     color: #fce138;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
  header nav {
@@ -45,7 +55,14 @@ header a {
      padding: 10px 15px;
      font-weight: lighter;
      font-size: 1.5vw;
+     text-shadow: 0 0 10px rgba(0,0, 0, 0.5);
  }
+ header nav ul li a:hover {
+     background: #fce138;
+     color: #024e76;
+     border-radius: 15px;
+     text-shadow: none;
+ } 
 
   footer {
       background-color: #fce138;
@@ -97,11 +114,13 @@ header a {
      .hero{
          background-image: url(../images/hero-bg.jpeg);
          background-size: cover;
-         background-position: center;
+         background-position: 80%;
+         background-attachment: fixed;
          display: flex;
          flex-wrap: wrap;
          justify-content: center;
          align-items: flex-start;
+         
      }
 
      .cta{
@@ -111,12 +130,14 @@ header a {
        color: #fff;
        font-size: 18px;
        line-height: 1.2; 
+       
     }
     .cta  h2{
      color: #fce138;
      font-style: italic;
      font-weight: bolder;
      font-size: 55px;
+     text-shadow: 0 0 10px rgba(0,0, 0, 0.5);
     }
     
     .cta p{
@@ -126,12 +147,14 @@ header a {
     }
 
       .hero-form{
-        background-color: #fce138;
+        background-color: rgba(252, 225, 56, .5);
         color: #024e76;
         padding: 20px;
         border: solid 3px #024e76;
         width: 40%;
         margin: 3.5%;
+        box-shadow: 0 0 10px rgba(0,0, 0, .8);
+        border-radius: 15px;
       }
 
       .hero-form h3 {
@@ -149,6 +172,11 @@ header a {
           font-size: 16px;
           color: #024e76;
           margin-bottom: 15px;
+          border-radius: 10px;
+          background-color: rgba(255, 255, 255, .75);
+      }
+      .form-input:focus{
+          background-color: rgba(255, 255, 255, 1);
       }
 
       .hero-form label {
@@ -161,6 +189,10 @@ header a {
            padding: 10px 20px;
            border: none;
            font-size: 16px;
+           border-radius: 10px;
+      }
+      .hero-form button:hover {
+          background-color: #39a6b2;
       }
 /* Hero Section Ends */
 
@@ -322,6 +354,7 @@ font-size: 22px;
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
+    border-radius: 10px;
 }
 
 .contact-form button{
@@ -332,6 +365,11 @@ font-size: 22px;
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+    border-radius: 10px;
+}
+.contact-form button:hover{
+    color: #fce138;
+    background: #39a6b2;
 }
 
 .page-title{
@@ -362,6 +400,7 @@ font-size: 22px;
     header {
         padding-bottom: 0;
         justify-content: center;
+        position: relative;
     }
     header h1 {
         text-align: center;
